@@ -25,7 +25,7 @@ public class StringAPIDemo01 {
 		//---<<
 
 		//- -->>get char in String, get number four
-		System.out.println("the number foor in str1 is:"+str1.charAt(3));
+		System.out.println("the number four in str1 is:"+str1.charAt(3));
 		//---<<
 
 		//--->>Sting to byte[]

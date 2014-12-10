@@ -16,8 +16,7 @@ public class CodeBlockDemo{
 		System.out.println("a ="+a);
 		{
 			a = 3;
-		}
-		
+		}		
 	}
 	CodeBlockDemo(){
 		this.a = 22;

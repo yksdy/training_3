@@ -9,14 +9,15 @@ public class PolymorphicDemo {
 		//A a = new B(); //new A();
 		B bb = new B(); 
 		System.out.println("B bb = new B(); = B "+(bb instanceof B));
+		System.out.println("x =  "+bb.x);
 		A a = bb;
 		System.out.println("A a = bb; = B "+(a instanceof B));
+		System.out.println("x =  "+a.x);
 		B b = (B)a;
 		System.out.println("B b = (B)a; = B "+(a instanceof B));
 		b.fun1();
 		b.fun2();
-		System.out.println("x =  "+b.x);
-		
+		System.out.println("x =  "+b.x);		
 		System.out.println("y =  "+b.y);
 		
 	}

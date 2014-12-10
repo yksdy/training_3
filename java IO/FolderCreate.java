@@ -3,11 +3,12 @@ import java.io.IOException;
 public class FolderCreate{
 	public static void main(String[] args){
 		File f = new File("test");//create floder
-		f.mkdir();
+		//f.mkdir();
 		if(f.isDirectory())
 			System.out.println("Directory");
 		else
 			System.out.println("Not Derectory");
+		f.delete();
 		
 		//File f1 = new File("F:\\");
 		File f1 = new File("F:"+File.separator+"java_test"); //separator  pathSeparator
@@ -34,7 +35,7 @@ public class FolderCreate{
 			}
 		}
 		else{
-			System.out.println(f);
+		//	System.out.println(f);
 		}
 	}
 }

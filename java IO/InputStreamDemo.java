@@ -12,5 +12,6 @@ public class InputStreamDemo{
 		ips.close();
 		System.out.println("len = "+len);
 		System.out.println(new String(b,0,len));
+		
 	}
 }

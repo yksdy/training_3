@@ -8,5 +8,6 @@ public class InputStreamReaderDemo {
 		int len = r.read(str);
 		r.close();
 		System.out.print(str);
+		
 	}
 }

@@ -1,1 +1,3 @@
-flip  slice  allocate  hasRemaining  put  get  position  linit  capacity  
+hahaha
+abc  
+ohhhh 

@@ -1,6 +1,6 @@
 public class ThreadSynchronizedDemo{
 	public static void main(String[] args){
-		MyThread mt = new MyThread();
+	    MyThread mt = new MyThread();
 		Thread t1 = new Thread(mt,"Thread AAA");
 		Thread t2 = new Thread(mt,"Thread BBB");
 		Thread t3 = new Thread(mt,"Thread CCC");
@@ -17,7 +17,7 @@ class MyThread implements Runnable {
 		try{
 			Thread.sleep(5);
 			}catch (Exception e){}
-			
+		
 			while(ticket>0){
 				synchronized(this){
 					ticket--;				

@@ -5,10 +5,10 @@ public class ScannerDemo {
 		//scan.useDelimiter("\n");
 		//String str = scan.next();
 		//System.out.println(str);
-		if(scan.hasNextInt()){
+		while(scan.hasNextInt()){
 			System.out.println(scan.nextInt());
 		}
-		if(scan.hasNextFloat()){
+		while(scan.hasNextFloat()){
 			System.out.println(scan.nextFloat());
 		}
 	}

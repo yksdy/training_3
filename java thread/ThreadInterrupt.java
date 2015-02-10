@@ -6,9 +6,9 @@ public class ThreadInterrupt{
 		try{
 			Thread.sleep(100);
 			System.out.println(Thread.currentThread().getName() + "  sleep");
-			}catch (Exception e){
+		}catch (Exception e){
 			System.out.println(Thread.currentThread().getName() + "Exception");
-			}
+		}
 		t.interrupt();
 	}
 }
